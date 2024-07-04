@@ -4,9 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "server" : "node backend/server.js"
+    "server": "node backend/server.js"
   },
-  "type" : "module",
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.4.3",
-    "socket.io": "^4.7.5"
+    "socket.io": "^4.7.5",
+    "zustand": "^4.5.4"
   }
 }
