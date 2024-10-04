@@ -4,7 +4,7 @@ import { extractTime } from '../../utils/extractTime.js';
 
 const Message = ({message}) => {
   const {authUser} = useAuthContext();
-  const { selectConverstion } = useConversation();
+  const { selectedConversation } = useConversation();
   const fromMe = message.senderId === authUser._id;
   const formattedTime = extractTime(message.createdAt);
   const chatClassName = fromMe ? 'chat-end' : 'chat-start';
